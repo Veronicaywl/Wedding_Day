@@ -1,0 +1,124 @@
+.containerSlider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  position: absolute;
+  width: 80%;
+  height: 22%;
+  margin-left: 10%;
+  border: none;
+  opacity: 0;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 2s linear;
+  transition: opacity 1s linear;
+}
+
+@media (min-width: 576px) {
+  .slide {
+    position: absolute;
+    width: 80%;
+    height: 34%;
+    margin-left: 10%;
+    border: none;
+    opacity: 0;
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -o-transition: opacity 2s linear;
+    transition: opacity 1s linear;
+  }
+}
+
+@media (min-width: 768px) {
+  .slide {
+    position: absolute;
+    width: 80%;
+    height: 45%;
+    margin-left: 10%;
+    border: none;
+    opacity: 0;
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -o-transition: opacity 2s linear;
+    transition: opacity 1s linear;
+  }
+}
+
+@media (min-width: 992px) {
+  .slide {
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+    border: none;
+    opacity: 0;
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -o-transition: opacity 2s linear;
+    transition: opacity 1s linear;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slide {
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    border: none;
+    opacity: 0;
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -o-transition: opacity 2s linear;
+    transition: opacity 1s linear;
+  }
+}
+
+.slide {
+  border: none;
+  opacity: 0;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 2s linear;
+  transition: opacity 1s linear;
+}
+
+.showMe {
+  opacity: 0.8;
+}
+
+.arrowLeft:hover {
+  transition: opacity .5s;
+  opacity: 0.8;
+}
+
+.arrowRight:hover {
+  transition: opacity .5s;
+  opacity: 0.8;
+}
+
+.arrowLeft {
+  border: none;
+  cursor: pointer;
+  opacity: 0.6;
+  width: 30%;
+}
+
+.arrowRight {
+  border: none;
+  cursor: pointer;
+  opacity: 0.6;
+  width: 30%;
+}
+
+.containerSliderArrow {
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40%;
+}
+
