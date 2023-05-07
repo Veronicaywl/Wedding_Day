@@ -64,7 +64,7 @@ $('.arrowRight').click(function() {
 });
 
 $(document).ready(function() {
-    const repoUrl = 'https://api.github.com/repos/Veronicaywl/veronicaywl.github.io/contents/assets/wedding_photos/';
+    const repoUrl = 'https://api.github.com/repos/Veronicaywl/Wedding_Day/contents/assets/wedding_photos';
     $.getJSON(repoUrl, function(data) {
         numImages = 0;
         $.each(data, function(i, item) {
