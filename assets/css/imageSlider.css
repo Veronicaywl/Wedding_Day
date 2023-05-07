@@ -7,77 +7,8 @@
 .slide {
   position: absolute;
   width: 80%;
-  height: 75%;
+  height: 55%;
   margin-left: 10%;
-  border: none;
-  opacity: 0;
-  -webkit-transition: opacity 1s linear;
-  -moz-transition: opacity 1s linear;
-  -o-transition: opacity 2s linear;
-  transition: opacity 1s linear;
-}
-
-@media (min-width: 576px) {
-  .slide {
-    position: absolute;
-    width: 80%;
-    height: 75%;
-    margin-left: 10%;
-    border: none;
-    opacity: 0;
-    -webkit-transition: opacity 1s linear;
-    -moz-transition: opacity 1s linear;
-    -o-transition: opacity 2s linear;
-    transition: opacity 1s linear;
-  }
-}
-
-@media (min-width: 768px) {
-  .slide {
-    position: absolute;
-    width: 80%;
-    height: 75%;
-    margin-left: 10%;
-    border: none;
-    opacity: 0;
-    -webkit-transition: opacity 1s linear;
-    -moz-transition: opacity 1s linear;
-    -o-transition: opacity 2s linear;
-    transition: opacity 1s linear;
-  }
-}
-
-@media (min-width: 992px) {
-  .slide {
-    position: absolute;
-    width: 80%;
-    height: 75%;
-    margin-left: 10%;
-    border: none;
-    opacity: 0;
-    -webkit-transition: opacity 1s linear;
-    -moz-transition: opacity 1s linear;
-    -o-transition: opacity 2s linear;
-    transition: opacity 1s linear;
-  }
-}
-
-@media (min-width: 1200px) {
-  .slide {
-    position: absolute;
-    width: 80%;
-    height: 75%;
-    margin-left: 10%;
-    border: none;
-    opacity: 0;
-    -webkit-transition: opacity 1s linear;
-    -moz-transition: opacity 1s linear;
-    -o-transition: opacity 2s linear;
-    transition: opacity 1s linear;
-  }
-}
-
-.slide {
   border: none;
   opacity: 0;
   -webkit-transition: opacity 1s linear;
