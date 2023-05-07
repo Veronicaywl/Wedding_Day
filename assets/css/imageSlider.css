@@ -6,8 +6,8 @@
 
 .slide {
   position: absolute;
-  width: 840px; 
-  height: 560px;
+  width: 60%; 
+  height: 72%;
   margin-left: 20%;
   border: none;
   opacity: 0;
